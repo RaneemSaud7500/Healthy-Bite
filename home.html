@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Healthy Bite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-overlay">
+            <h1 class="site-title">Healthy Bite</h1>
+            <a href="home.html" class="home-icon"><i class="fas fa-home"></i></a>
+        </div>
+    </header>
+
+    <div class="main-content">
+        
+        <div id="diabetes-section">
+            <h2 class="section-title">Diabetes Friendly</h2>
+            <hr class="section-divider">
+            <div class="meal-grid">
+                <div class="meal-card" onclick="showRecipeList('diabetes', 'breakfast')">
+                    <img src="db.jpg" alt="Breakfast">
+                    <div class="meal-label">Breakfast</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('diabetes', 'lunch')">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500" alt="Lunch">
+                    <div class="meal-label">Lunch</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('diabetes', 'dinner')">
+                    <img src="https://images.unsplash.com/photo-1543353071-087092ec393a?w=600" alt="Dinner">
+                    <div class="meal-label">Dinner</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('diabetes', 'dessert')">
+                    <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600" alt="Dessert">
+                    <div class="meal-label">Dessert</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="lactose-section">
+            <h2 class="section-title">Lactose Intolerance</h2>
+            <hr class="section-divider">
+            <div class="meal-grid">
+                <div class="meal-card" onclick="showRecipeList('lactose', 'breakfast')">
+                    <img src="https://images.unsplash.com/photo-1494390248081-4e521a5940db?w=500" alt="Breakfast">
+                    <div class="meal-label">Breakfast</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('lactose', 'lunch')">
+                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500" alt="Lunch">
+                    <div class="meal-label">Lunch</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('lactose', 'dinner')">
+                    <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600" alt="Dinner">
+                    <div class="meal-label">Dinner</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('lactose', 'dessert')">
+                    <img src="ld.jpg" alt="Dessert">
+                    <div class="meal-label">Dessert</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gluten-section">
+            <h2 class="section-title">Gluten Sensitivity</h2>
+            <hr class="section-divider">
+            <div class="meal-grid">
+                <div class="meal-card" onclick="showRecipeList('gluten', 'breakfast')">
+                    <img src="gb.jpg" alt="Breakfast">
+                    <div class="meal-label">Breakfast</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('gluten', 'lunch')">
+                    <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=500" alt="Lunch">
+                    <div class="meal-label">Lunch</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('gluten', 'dinner')">
+                    <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=500" alt="Dinner">
+                    <div class="meal-label">Dinner</div>
+                </div>
+                <div class="meal-card" onclick="showRecipeList('gluten', 'dessert')">
+                    <img src="gd.jpg" alt="Dessert">
+                    <div class="meal-label">Dessert</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popover-overlay" id="popover-overlay" onclick="closePopover()"></div>
+    <div class="recipe-popover" id="recipe-popover">
+        <h3>Choose a Recipe</h3>
+        <div id="recipe-list-content">
+            </div>
+        <button class="close-popover" onclick="closePopover()">Close</button>
+    </div>
+
+    <footer>
+        <p>"Let food be thy medicine and medicine be thy food." - Hippocrates</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

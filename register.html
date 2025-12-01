@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Healthy Bite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+    <div class="glass-container">
+        <h2>Register</h2>
+        <form onsubmit="registerUser(event)">
+            <div class="input-group">
+                <input type="text" id="reg-username" class="input-field" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="reg-email" class="input-field" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="reg-password" class="input-field" placeholder="Password" required>
+            </div>
+            <div class="input-group">
+                <input type="date" class="input-field" required>
+            </div>
+             <div class="input-group">
+                <select class="input-field" style="color:#333">
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="checkbox-group">
+                <p>Do you have any of the following conditions?</p>
+                <input type="checkbox" id="cond-lactose"> <label for="cond-lactose" style="display:inline;">Lactose Intolerance</label><br>
+                <input type="checkbox" id="cond-gluten"> <label for="cond-gluten" style="display:inline;">Gluten Sensitivity</label><br>
+                <input type="checkbox" id="cond-diabetes"> <label for="cond-diabetes" style="display:inline;">Diabetes</label><br>
+                <input type="checkbox" id="cond-visitor"> <label for="cond-visitor" style="display:inline;">Just a Visitor</label>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit</button>
+            
+            <div class="auth-links">
+                <p>Already have an account? <a href="index.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

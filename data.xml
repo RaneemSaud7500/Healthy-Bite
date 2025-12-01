@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <category id="diabetes" title="Diabetes Friendly">
+        <meal type="breakfast" label="Breakfast">
+            <recipe id="d_bf_1">
+                <name>Oatmeal with Apple &amp; Cinnamon</name>
+                <ingredients>
+                    <item>1/2 cup rolled oats</item>
+                    <item>1 cup low-fat milk or almond milk</item>
+                    <item>1/2 apple (chopped)</item>
+                    <item>1/4 tsp cinnamon</item>
+                    <item>1 tsp honey (optional)</item>
+                </ingredients>
+                <steps>
+                    <step>Boil milk and oats together until thick.</step>
+                    <step>Add chopped apple and cinnamon.</step>
+                    <step>Stir for 2-3 minutes and serve warm.</step>
+                </steps>
+                <image>https://frommybowl.com/wp-content/uploads/2023/09/Apple_Cinnamon_Oatmeal_Vegan_FromMyBowl-10.jpg</image>
+            </recipe>
+            <recipe id="d_bf_2">
+                <name>Veggie Omelet</name>
+                <ingredients>
+                    <item>2 eggs</item>
+                    <item>1/4 cup chopped tomatoes</item>
+                    <item>1/4 cup chopped spinach</item>
+                    <item>1 tsp olive oil</item>
+                    <item>Pinch of salt and pepper</item>
+                </ingredients>
+                <steps>
+                    <step>Beat eggs and mix with chopped vegetables.</step>
+                    <step>Heat olive oil in a pan and pour the mixture.</step>
+                    <step>Cook until both sides are firm, then serve.</step>
+                </steps>
+                <image>vo.jpg</image>
+            </recipe>
+            <recipe id="d_bf_3">
+                <name>Greek Yogurt with Berries</name>
+                <ingredients>
+                    <item>1/2 cup plain Greek yogurt (no sugar)</item>
+                    <item>1/4 cup mixed berries</item>
+                    <item>1 tsp chia seeds</item>
+                </ingredients>
+                <steps>
+                    <step>Mix yogurt and berries in a bowl.</step>
+                    <step>Sprinkle chia seeds on top.</step>
+                    <step>Chill for 10 minutes and serve.</step>
+                </steps>
+                <image>https://www.thekitchenmagpie.com/wp-content/uploads/images/2011/04/greekyogurtandberries1.jpg</image>
+            </recipe>
+        </meal>
+        
+        <meal type="lunch" label="Lunch">
+            <recipe id="d_ln_1">
+                <name>Grilled Chicken with Vegetables</name>
+                <ingredients>
+                    <item>1 chicken breast</item>
+                    <item>1/2 cup zucchini slices</item>
+                    <item>1/2 cup carrots (sliced)</item>
+                    <item>1 tsp olive oil, herbs</item>
+                </ingredients>
+                <steps>
+                    <step>Season chicken with olive oil, salt, and herbs.</step>
+                    <step>Grill chicken and vegetables until golden.</step>
+                    <step>Serve warm with lemon on the side.</step>
+                </steps>
+                <image>https://easychickenrecipes.com/wp-content/uploads/2022/06/sheet-pan-herb-chicken-recipe-4.jpg</image>
+            </recipe>
+            <recipe id="d_ln_2">
+                <name>Lentil Soup</name>
+                <ingredients>
+                    <item>1/2 cup red lentils</item>
+                    <item>3 cups water</item>
+                    <item>1/2 onion, 1 carrot</item>
+                </ingredients>
+                <steps>
+                    <step>Boil all ingredients until lentils are soft.</step>
+                    <step>Blend slightly for a smooth texture.</step>
+                    <step>Serve hot.</step>
+                </steps>
+                <image>https://www.keepingthepeas.com/wp-content/uploads/2021/06/low-calorie-lentil-soup-2.jpg</image>
+            </recipe>
+            <recipe id="d_ln_3">
+                <name>Tuna Salad</name>
+                <ingredients>
+                    <item>1 can tuna in water</item>
+                    <item>1 cucumber, 1 tomato</item>
+                    <item>Olive oil, lemon juice</item>
+                </ingredients>
+                <steps>
+                    <step>Mix chopped vegetables with tuna.</step>
+                    <step>Add olive oil, lemon juice, and salt.</step>
+                    <step>Toss gently and serve cold.</step>
+                </steps>
+                <image>https://brooklynfarmgirl.com/wp-content/uploads/2018/02/Tomato-Cucumber-Tuna-Salad_2.jpg</image>
+            </recipe>
+        </meal>
+
+        <meal type="dinner" label="Dinner">
+            <recipe id="d_dn_1">
+                <name>Vegetable Quinoa Bowl</name>
+                <ingredients>
+                    <item>1/2 cup cooked quinoa</item>
+                    <item>Broccoli, Corn</item>
+                    <item>Olive oil</item>
+                </ingredients>
+                <steps>
+                    <step>Mix cooked quinoa with vegetables.</step>
+                    <step>Add olive oil and seasoning.</step>
+                    <step>Serve warm or cold.</step>
+                </steps>
+                <image>https://feelgoodfoodie.net/wp-content/uploads/2022/01/Roasted-Vegetable-Quinoa-Bowl-06.jpg</image>
+            </recipe>
+            <recipe id="d_dn_2">
+                <name>Baked Salmon</name>
+                <ingredients>
+                    <item>1 salmon fillet</item>
+                    <item>Olive oil, Lemon</item>
+                </ingredients>
+                <steps>
+                    <step>Place salmon in a baking tray.</step>
+                    <step>Drizzle with olive oil, add salt/pepper.</step>
+                    <step>Bake at 180°C for 15-20 mins.</step>
+                </steps>
+                <image>https://www.theroastedroot.net/wp-content/uploads/2022/08/sheet-pan-salmon-and-vegetables-5.jpg</image>
+            </recipe>
+            <recipe id="d_dn_3">
+                <name>Chicken &amp; Veggie Stir-Fry</name>
+                <ingredients>
+                    <item>1/2 chicken breast</item>
+                    <item>Bell peppers, Broccoli</item>
+                    <item>Soy sauce</item>
+                </ingredients>
+                <steps>
+                    <step>Stir-fry chicken until cooked.</step>
+                    <step>Add vegetables and soy sauce.</step>
+                    <step>Cook for 5 mins and serve.</step>
+                </steps>
+                <image>https://www.eatwell101.com/wp-content/uploads/2022/09/Pepper-Chicken-Stir-Fry-recipe-600x400.jpg</image>
+            </recipe>
+        </meal>
+
+        <meal type="dessert" label="Dessert">
+             <recipe id="d_ds_1">
+                <name>Chia Pudding</name>
+                <ingredients>
+                    <item>3 tbsp chia seeds</item>
+                    <item>1 cup almond milk</item>
+                </ingredients>
+                <steps>
+                    <step>Mix ingredients.</step>
+                    <step>Refrigerate overnight.</step>
+                </steps>
+                <image>cp.jpg</image>
+            </recipe>
+             <recipe id="d_ds_2">
+                <name>Oat Cookies (No Sugar)</name>
+                <ingredients>
+                    <item>1 cup oats</item>
+                    <item>1 ripe banana</item>
+                    <item>Peanut butter</item>
+                </ingredients>
+                <steps>
+                    <step>Mix all ingredients.</step>
+                    <step>Form cookies.</step>
+                    <step>Bake 180°C for 10-12 mins.</step>
+                </steps>
+                <image>https://ihackeddiabetes.com/wp-content/uploads/2023/02/sugar-free-oatmeal-cookies-hero.jpg</image>
+            </recipe>
+             <recipe id="d_ds_3">
+                <name>Greek Yogurt Cheesecake</name>
+                <ingredients>
+                    <item>Greek yogurt, cream cheese</item>
+                    <item>Egg, Vanilla</item>
+                </ingredients>
+                <steps>
+                    <step>Mix until smooth.</step>
+                    <step>Bake 170°C for 20 mins.</step>
+                </steps>
+                <image>https://www.wholesomeyum.com/wp-content/uploads/2017/03/wholesomeyum-Keto-Cheesecake-Recipe-Low-Carb-Sugar-Free-Cheesecake.jpg</image>
+            </recipe>
+        </meal>
+    </category>
+
+    <category id="lactose" title="Lactose Intolerance">
+         <meal type="breakfast" label="Breakfast">
+            <recipe id="l_bf_1">
+                <name>Mango Smoothie</name>
+                <ingredients>
+                    <item>Mango chunks, Coconut milk</item>
+                    <item>Banana</item>
+                </ingredients>
+                <steps>
+                    <step>Blend all ingredients.</step>
+                </steps>
+                <image>https://coconutsandkettlebells.com/wp-content/uploads/mango-coconut-milk-smoothie-in-glass.jpg</image>
+            </recipe>
+            <recipe id="l_bf_2">
+                <name>Avocado Toast</name>
+                <ingredients>
+                    <item>Bread, Avocado</item>
+                    <item>Lemon, Salt</item>
+                </ingredients>
+                <steps>
+                    <step>Toast bread.</step>
+                    <step>Spread avocado.</step>
+                </steps>
+                <image>at.jpg</image>
+            </recipe>
+            <recipe id="l_bf_3">
+                <name>Oatmeal w/ Almond Milk</name>
+                <ingredients>
+                    <item>Oats, Almond milk</item>
+                    <item>Honey</item>
+                </ingredients>
+                <steps>
+                    <step>Cook oats with milk.</step>
+                    <step>Add toppings.</step>
+                </steps>
+                <image>https://www.hauteandhealthyliving.com/wp-content/uploads/2022/04/best-creamy-oatmeal-with-almond-milk.jpg</image>
+            </recipe>
+        </meal>
+        
+        <meal type="lunch" label="Lunch">
+            <recipe id="l_ln_1">
+                <name>Grilled Chicken &amp; Veggies</name>
+                <ingredients>
+                    <item>Chicken breast</item>
+                    <item>Mixed vegetables</item>
+                </ingredients>
+                <steps>
+                    <step>Season and grill chicken.</step>
+                    <step>Steam vegetables.</step>
+                </steps>
+                <image>https://easychickenrecipes.com/wp-content/uploads/2022/06/sheet-pan-herb-chicken-recipe-4.jpg</image>
+            </recipe>
+            <recipe id="l_ln_2">
+                <name>Lentil Soup</name>
+                <ingredients>
+                    <item>Lentils, water</item>
+                    <item>Onion, carrot</item>
+                </ingredients>
+                <steps>
+                    <step>Sauté veggies.</step>
+                    <step>Add lentils and simmer.</step>
+                </steps>
+                <image>https://www.keepingthepeas.com/wp-content/uploads/2021/06/low-calorie-lentil-soup-2.jpg</image>
+            </recipe>
+            <recipe id="l_ln_3">
+                <name>Tuna Salad Wrap</name>
+                <ingredients>
+                    <item>Tuna, lettuce leaves</item>
+                    <item>Cucumber, tomato</item>
+                </ingredients>
+                <steps>
+                    <step>Mix tuna and veggies.</step>
+                    <step>Wrap in lettuce.</step>
+                </steps>
+                <image>https://greenhealthycooking.com/wp-content/uploads/2019/02/10-Minute-Tuna-Wrap-1.jpg</image>
+            </recipe>
+        </meal>
+
+        <meal type="dinner" label="Dinner">
+            <recipe id="l_dn_1">
+                <name>Baked Sweet Potato</name>
+                <ingredients>
+                    <item>Sweet potato</item>
+                    <item>Olive oil, herbs</item>
+                </ingredients>
+                <steps>
+                    <step>Brush with oil.</step>
+                    <step>Bake 200°C for 30 mins.</step>
+                </steps>
+                <image>https://www.aheadofthyme.com/wp-content/uploads/2017/09/herb-roasted-sweet-potatoes-1.jpg</image>
+            </recipe>
+            <recipe id="l_dn_2">
+                <name>Egg &amp; Veggie Stir-Fry</name>
+                <ingredients>
+                    <item>2 eggs</item>
+                    <item>Peppers, spinach</item>
+                </ingredients>
+                <steps>
+                    <step>Sauté veggies.</step>
+                    <step>Add eggs and cook.</step>
+                </steps>
+                <image>https://assets.ju.st/is/750x750/smart/filters:format(webp):quality(80)/f/111747/640x568/f291b96e4d/06_egg-and-vegetable-stir-fry_landing_mobile.jpg</image>
+            </recipe>
+             <recipe id="l_dn_3">
+                <name>Quinoa with Chicken</name>
+                <ingredients>
+                    <item>Quinoa, grilled chicken</item>
+                    <item>Olive oil</item>
+                </ingredients>
+                <steps>
+                    <step>Mix quinoa with oil.</step>
+                    <step>Top with chicken.</step>
+                </steps>
+                <image>https://justcook.butcherbox.com/wp-content/uploads/2025/02/Lemon-Herb-Chicken-Bowl-1.jpg</image>
+            </recipe>
+        </meal>
+
+         <meal type="dessert" label="Dessert">
+             <recipe id="l_ds_1">
+                <name>Coconut Chia Pudding</name>
+                <ingredients>
+                    <item>Chia seeds</item>
+                    <item>Coconut milk</item>
+                </ingredients>
+                <steps>
+                    <step>Mix ingredients.</step>
+                    <step>Refrigerate overnight.</step>
+                </steps>
+                <image>https://choosingchia.com/jessh-jessh/uploads/2025/06/coconut-chia-pudding-1-2-1200x1800.jpg</image>
+            </recipe>
+             <recipe id="l_ds_2">
+                <name>Banana Ice Cream</name>
+                <ingredients>
+                    <item>Frozen bananas</item>
+                    <item>Peanut butter</item>
+                </ingredients>
+                <steps>
+                    <step>Blend bananas.</step>
+                    <step>Freeze briefly.</step>
+                </steps>
+                <image>https://elavegan.com/wp-content/uploads/2021/05/scoops-of-peanut-butter-banana-ice-cream-in-bowl-with-caramel-sauce-drizzle.jpg</image>
+            </recipe>
+             <recipe id="l_ds_3">
+                <name>Chocolate Cake (LF)</name>
+                <ingredients>
+                    <item>Flour, Cocoa</item>
+                    <item>Almond milk</item>
+                </ingredients>
+                <steps>
+                    <step>Mix batter.</step>
+                    <step>Bake 180°C for 25 mins.</step>
+                </steps>
+                <image>https://atsloanestable.com/wp-content/uploads/2022/05/dairy-free-chocolate-cake3.jpg</image>
+            </recipe>
+        </meal>
+    </category>
+
+    <category id="gluten" title="Gluten Sensitivity">
+        <meal type="breakfast" label="Breakfast">
+            <recipe id="g_bf_1">
+                <name>Almond Flour Pancakes</name>
+                <ingredients>
+                    <item>Almond flour, eggs</item>
+                    <item>Almond milk</item>
+                </ingredients>
+                <steps>
+                    <step>Whisk ingredients.</step>
+                    <step>Cook on pan.</step>
+                </steps>
+                <image>https://www.ambitiouskitchen.com/wp-content/uploads/2018/09/almondflourpancakes-6-1-1-1064x1064.jpg</image>
+            </recipe>
+             <recipe id="g_bf_2">
+                <name>Veggie Omelet</name>
+                <ingredients>
+                    <item>Eggs</item>
+                    <item>Peppers, Spinach</item>
+                </ingredients>
+                <steps>
+                    <step>Beat eggs with veggies.</step>
+                    <step>Cook on pan.</step>
+                </steps>
+                <image>https://www.glutenfreestories.com/wp-content/uploads/2020/12/20201208-IMG_3959-scaled.jpg</image>
+            </recipe>
+             <recipe id="g_bf_3">
+                <name>Rice Cakes w/ Avocado</name>
+                <ingredients>
+                    <item>Rice cakes</item>
+                    <item>Avocado</item>
+                </ingredients>
+                <steps>
+                    <step>Spread avocado on cakes.</step>
+                    <step>Season.</step>
+                </steps>
+                <image>https://thecrookedcarrot.com/wp-content/uploads/2020/02/avocado-rice-cake-3-1.jpg</image>
+            </recipe>
+        </meal>
+
+        <meal type="lunch" label="Lunch">
+            <recipe id="g_ln_1">
+                <name>Grilled Chicken &amp; Brown Rice</name>
+                <ingredients>
+                    <item>Chicken breast</item>
+                    <item>Brown rice</item>
+                </ingredients>
+                <steps>
+                    <step>Season and grill chicken.</step>
+                    <step>Serve with rice.</step>
+                </steps>
+                <image>gc.jpg</image>
+            </recipe>
+            <recipe id="g_ln_2">
+                <name>Vegetable Soup</name>
+                <ingredients>
+                    <item>Carrot, zucchini, spinach</item>
+                    <item>Broth</item>
+                </ingredients>
+                <steps>
+                    <step>Boil ingredients.</step>
+                    <step>Season.</step>
+                </steps>
+                <image>https://www.cookingclassy.com/wp-content/uploads/2014/10/vegetable-soup-7.jpg</image>
+            </recipe>
+            <recipe id="g_ln_3">
+                <name>Lettuce Wrap Burger</name>
+                <ingredients>
+                    <item>Beef patty (no crumbs)</item>
+                    <item>Lettuce leaves</item>
+                </ingredients>
+                <steps>
+                    <step>Grill patty.</step>
+                    <step>Wrap in lettuce.</step>
+                </steps>
+                <image>https://www.midgetmomma.com/wp-content/uploads/2018/01/lettuce-wrap-burger-2.jpg</image>
+            </recipe>
+        </meal>
+
+         <meal type="dinner" label="Dinner">
+            <recipe id="g_dn_1">
+                <name>Baked Fish</name>
+                <ingredients>
+                    <item>Fish fillet</item>
+                    <item>Peppers, Olive oil</item>
+                </ingredients>
+                <steps>
+                    <step>Place fish on tray.</step>
+                    <step>Bake 180°C for 20 mins.</step>
+                </steps>
+                <image>https://media.soscuisine.com/images/recettes/large/36.jpg</image>
+            </recipe>
+             <recipe id="g_dn_2">
+                <name>Stuffed Peppers</name>
+                <ingredients>
+                    <item>Bell peppers</item>
+                    <item>Rice, veggies</item>
+                </ingredients>
+                <steps>
+                    <step>Stuff peppers with rice mix.</step>
+                    <step>Bake 25 mins.</step>
+                </steps>
+                <image>https://inquiringchef.com/wp-content/uploads/2023/01/Vegetable-and-Rice-Stuffed-Peppers-4540.jpg</image>
+            </recipe>
+             <recipe id="g_dn_3">
+                <name>Sweet Potato &amp; Yogurt</name>
+                <ingredients>
+                    <item>Sweet potato</item>
+                    <item>Greek yogurt</item>
+                </ingredients>
+                <steps>
+                    <step>Bake potato.</step>
+                    <step>Top with yogurt sauce.</step>
+                </steps>
+                <image>https://assets.bonappetit.com/photos/59e4f4b0c8947d766a96640c/1:1/w_960,c_limit/roasted-sweet-potatoes-with-chile-yogurt-and-mint.jpg</image>
+            </recipe>
+        </meal>
+
+         <meal type="dessert" label="Dessert">
+             <recipe id="g_ds_1">
+                <name>Coconut Flour Brownies</name>
+                <ingredients>
+                    <item>Coconut flour, cocoa</item>
+                    <item>Honey, coconut oil</item>
+                </ingredients>
+                <steps>
+                    <step>Mix smooth.</step>
+                    <step>Bake 180°C for 15 mins.</step>
+                </steps>
+                <image>https://detoxinista.com/wp-content/uploads/2020/07/best-coconut-flour-brownies.jpg</image>
+            </recipe>
+             <recipe id="g_ds_2">
+                <name>Almond Cake</name>
+                <ingredients>
+                    <item>Almond flour</item>
+                    <item>Eggs, honey</item>
+                </ingredients>
+                <steps>
+                    <step>Beat eggs, add flour.</step>
+                    <step>Bake 180°C for 20 mins.</step>
+                </steps>
+                <image>https://thebigmansworld.com/wp-content/uploads/2022/05/almond-flour-cake.jpg</image>
+            </recipe>
+             <recipe id="g_ds_3">
+                <name>Fruit Salad</name>
+                <ingredients>
+                    <item>Mixed fruits</item>
+                    <item>Honey, lemon</item>
+                </ingredients>
+                <steps>
+                    <step>Mix fruits.</step>
+                    <step>Drizzle honey.</step>
+                </steps>
+                <image>https://www.aheadofthyme.com/wp-content/uploads/2017/08/summer-fruit-salad-2.jpg</image>
+            </recipe>
+        </meal>
+    </category>
+</menu>
